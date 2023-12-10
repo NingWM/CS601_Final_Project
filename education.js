@@ -73,10 +73,6 @@ function photoGallery(imgs) {
 const defaultimg = document.getElementById("tj");
 photoGallery(defaultimg);
 
-
-const errImg = document.getElementById('img-ft');
-
-
 // Func to toggle humbegar
 // function menuToggle() {
 //     const x = document.getElementById("app");
