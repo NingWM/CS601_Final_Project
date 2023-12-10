@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Projects</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="icon" href="./images/favicon.png">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/3.3.10/vue.global.min.js"
+        integrity="sha512-es4vSPtFlEKtmABZjNbGIagxq+4vAymgRWKhEt4C7Z+R8nHasGt/1H5JCBnUILChOXg1i1bImtqHul/LM7UxlQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="app.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <ul id="app">
+            <li v-for="nav in header">
+                <a :href="nav[1]">{{nav[0]}}</a>
+            </li>
+        </ul>
+        <h1>Projects</h1>
+
+    </header>
+    <main>
+        <div id="project-wrapper">
+            <p id="project-intro">After graduating from W&M, I have accumulated over four years of experience as a data
+                analyst.
+                I derive great satisfaction from extracting insights from data and using them to inform
+                the decisions of senior leadership. Data is unwavering, but people's interpretations can vary.
+                The more I delve into this field, the more adept I become at discerning whether visualizations
+                or calculations have been manipulated in real-world scenarios.
+            </p>
+        </div>
+
+        <div id="project-sec">
+            <div class="projects">
+                <dl class="project">
+                    
+                    <dt><img class="project-img" src="./images/markov_chain.png" alt="Markov China Image"> <br>Markov Chain Model</dt>
+                    <dd>Developed multi-touch attribution model through Markov Chain using Python and Alteryx to
+                        understand media mix efficiency
+                        <br>
+                        <button class="project-button"
+                        onclick="window.location.href = 'https://www.collimator.ai/reference-guides/what-is-markov-chain-periodic'">Learn
+                        More</button>
+                    </dd>
+                </dl>
+                <dl class="project">
+                    <dt><img class="project-img" src="./images/etl.jpeg" alt="ETL Image"> <br> Inpatient Data Analysis</dt>
+                    <dd>Created ETL to clean internal data and combined with census data, providing insights about
+                        measure metrics on inpatient rate
+                        <br>
+                        <button class="project-button"
+                        onclick="window.location.href = 'https://www.tatvasoft.com/blog/etl-process-extract-transform-load/'">Learn
+                        More</button>
+                    </dd>
+                </dl>
+                <dl class="project">
+                    <dt><img class="project-img" src="./images/deposit.webp" alt="Deposit Image"> <br> banking institution ML Project</dt>
+                    <dd>Built KNN, GLM, LDA models to predict whether a customer would sign up for a new bank term
+                        deposit
+                        <br>
+                        <button class="project-button"
+                        onclick="window.location.href = 'https://towardsdatascience.com/bank-institution-term-deposit-predictive-model-83afe1d2b08c'">Learn
+                        More</button>
+                    </dd>
+                </dl>
+                <dl class="project">
+                    <dt><img class="project-img" src="./images/grad.jpeg" alt="Admission Image"> <br>International students’ grad school application</dt>
+                    <dd>Built PAC, Ridge, Lasso, SVM and Random Forest models to predict which students are eligible
+                        <br>
+                        <button class="project-button"
+                        onclick="window.location.href = 'https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10599576/'">Learn
+                        More</button>
+                    </dd>
+                </dl>
+            </div>
+        </div>
+
+
+    </main>
+    <footer>&copy; 2023. Yuening He. Open Source. MIT License.</footer>
+</body>
+
+</html>

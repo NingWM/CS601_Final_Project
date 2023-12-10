@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Let's Connect</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="icon" href="./images/favicon.png">
+    <script src="contact.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/3.3.10/vue.global.min.js"
+        integrity="sha512-es4vSPtFlEKtmABZjNbGIagxq+4vAymgRWKhEt4C7Z+R8nHasGt/1H5JCBnUILChOXg1i1bImtqHul/LM7UxlQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="app.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <ul id="app">
+            <li v-for="nav in header">
+                <a :href="nav[1]">{{nav[0]}}</a>
+            </li>
+        </ul>
+        <h1>Let's Connect</h1>
+    </header>
+
+    <main>
+        <br>
+        <form id="testForm" method="post" action="mailto:ninghe@bu.edu" enctype="text/plain" name="EmailForm"
+            novalidate>
+            <p id="page-error-message"></p>
+            <fieldset>
+                <legend>Shoot me an email!</legend>
+                <div class="form-input">
+                    <label class="text-label" for="name"> Name</label>
+                    <input class="text-input" type="text" id="name" name="name" placeholder="Please enter your name"
+                        required>
+                    <p class="error-message" id="name-error-message"></p>
+                </div>
+                <div class="form-input">
+                    <label class="text-label" for="email"> Email Address</label>
+                    <input class="text-input" type="email" id="email" name="email"
+                        placeholder="Please enter your email address" required>
+                    <p class="error-message" id="email-error-message"></p>
+                </div>
+                <div class="form-input">
+                    <label class="text-label" for="message"> Message</label>
+                    <textarea class="text-input" id="message" name="message"
+                        placeholder="Please enter your message" required></textarea>
+                    <p class="error-message" id="message-error-message"></p>
+                </div>
+                <div class="form-button">
+                    <button id="submit-btn" type="submit">Send</button>
+                    <button id="reset-btn" type="reset" onclick="rest_fm()">Reset</button>
+                </div>
+            </fieldset>
+        </form>
+        <hr>
+        <div class="video-section">
+            <p class="video-text">Share the beauty of fall in Virginia. <br> Hope you have a great day! <br>
+                <a href="https://www.linkedin.com/in/yueninghe/"><img id="linkedin-logo" src="./images/linkedin.png"
+                        alt="Let's Connect"></a>
+            </p>
+            <video src="./assets/video/Fall_VA.MOV" poster="./images/fall.jpg" controls></video>
+        </div>
+
+    </main>
+    <footer>
+        <p>&copy; 2023. Yuening He. Open Source. MIT License.</p>
+        <a id="attribute-auther" href="https://www.flaticon.com/free-icons/linkedin" title="linkedin icons">Linkedin
+            icons created by riajulislam - Flaticon</a>
+    </footer>
+
+</body>
+
+</html>

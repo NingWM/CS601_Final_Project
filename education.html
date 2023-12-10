@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Education Journey</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <script src="education.js" defer></script>
+    <link rel="icon" href="./images/favicon.png">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/3.3.10/vue.global.min.js"
+        integrity="sha512-es4vSPtFlEKtmABZjNbGIagxq+4vAymgRWKhEt4C7Z+R8nHasGt/1H5JCBnUILChOXg1i1bImtqHul/LM7UxlQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="app.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <div class="menu-container">
+            <div class="navbar">
+                <ul id="app">
+                    <li v-for="nav in header">
+                        <a :href="nav[1]">{{nav[0]}}</a>
+                    </li>
+                </ul>
+                <!-- <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div> -->
+            </div>
+        </div>
+
+        <h1>Education</h1>
+    </header>
+
+    <main>
+        <div id="education-wrapper">
+            <p id="edu-intro">My journey began with a major in Japanese during my undergraduate studies in Shanghai,
+                China.
+                I further enriched my academic experience by spending six months as an exchange student in Japan.
+                Upon returning, I pursued an enhanced French program at my school. Eventually,
+                I crossed the Pacific Ocean to study Business Analytics as a graduate student in Williamsburg, VA.
+            </p>
+            <div id="edu-photo">
+                <!-- Create a grid -->
+                <div class="row">
+                    <div class="column">
+                        <img id="tj" src="./images/tongji.jpg" alt="Tongji University" onclick="photoGallery(this)">
+                    </div>
+                    <div class="column">
+                        <img src="./images/fk.jpeg" alt="Fukuoka Women's University" onclick="photoGallery(this)">
+                    </div>
+                    <div class="column">
+                        <img src="./images/wm.jpg" alt="William and Mary" onclick="photoGallery(this)">
+                    </div>
+                    <div class="column">
+                        <img src="./images/bu.jpg" alt="Boston University" onclick="photoGallery(this)">
+                    </div>
+                </div>
+                <div class="photo-container">
+                    <span onclick="this.parentElement.style.display='none'" class="photo-cls">&times;</span>
+                    <img id="expandedImg" src="placeholder" alt="placeholder">
+                    <div id="imgtext"></div>
+                </div>
+            </div>
+        </div>
+
+        <div id="edu-tbl-sec">
+            <div id="nutshell">
+                <p id="edu-tbl-text">Education Journey in a Nutshell</p>
+                <img id="nut" src="./images/nutshell.png" alt="Nuteshell">
+            </div>
+            <div id="education_tbl">
+                <p id="execmsg" class="json-error"></p>
+                <img id="img-ft" class="http-cat" src="placeholder" alt="placeholder">
+            </div>
+        </div>
+    </main>
+    <footer>&copy; 2023. Yuening He. Open Source. MIT License.</footer>
+</body>
+
+</html>

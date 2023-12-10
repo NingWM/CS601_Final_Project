@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Career Journey</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="icon" href="./images/favicon.png">
+    <script src="career.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/3.3.10/vue.global.min.js"
+        integrity="sha512-es4vSPtFlEKtmABZjNbGIagxq+4vAymgRWKhEt4C7Z+R8nHasGt/1H5JCBnUILChOXg1i1bImtqHul/LM7UxlQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="app.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <ul id="app">
+            <li v-for="nav in header">
+                <a :href="nav[1]">{{nav[0]}}</a>
+            </li>
+        </ul>
+        <h1>Career</h1>
+
+    </header>
+    <main>
+        <div id="work-sec">
+            <p id="work-text">Work Experience</p>
+            <p id="execmsg2" class="json-error"></p>
+            <img id="img-ft2" class="http-cat" src="placeholder" alt="placeholder">
+        </div>
+    </main>
+    <footer>&copy; 2023. Yuening He. Open Source. MIT License.</footer>
+</body>
+
+</html>

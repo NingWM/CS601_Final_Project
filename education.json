@@ -1,0 +1,49 @@
+{
+    "education": [
+        {
+            "exp": {
+                "Country": "U.S.",
+                "School": "Boston University",
+                "Program": "Software Development",
+                "Type": "MS",
+                "Year": "2022 - 2024"
+            }
+        },
+        {
+            "exp": {
+                "Country": "U.S.",
+                "School": "College of William and Mary",
+                "Program": "Business Analytics",
+                "Type": "MS",
+                "Year": "2018 - 2019"
+            }
+        },
+        {
+            "exp": {
+                "Country": "China",
+                "School": "Tongji University",
+                "Program": "Enhanced French Program",
+                "Type": "-",
+                "Year": 2016
+            }
+        },
+        {
+            "exp": {
+                "Country": "Japan",
+                "School": "Fukuoka Women's University",
+                "Program": "Exchange Program",
+                "Type": "-",
+                "Year": 2015
+            }
+        },
+        {
+            "exp": {
+                "Country": "China",
+                "School": "Tongji University",
+                "Program": "Japanese",
+                "Type": "BA",
+                "Year": "2013 - 2018"
+            }
+        }
+    ]
+}

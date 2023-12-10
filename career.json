@@ -1,0 +1,95 @@
+{
+    "career": [
+        {
+            "exp": {
+                "Company": "Capital One",
+                "Title": "Principal Data Analyst",
+                "Year": "2021 - Present",
+                "Details": {
+                    "d1": "▪ Accelerated development and achieved an early release for a 5-month Tableau dashboards project by 45 days with high quality, reducing the rework time from 20% to 10%",
+                    "d2": "▪ Managed stakeholder’s relationship and fostered open conversation by hosting requirements sessions and demo sessions to interview stakeholders, reveal potential problems, and provide multiple alternative solutions",
+                    "d3": "▪ Reduced the time of populating data from 25 different excels into data mart by 80% via building an ETL pipeline in Python. Dramatically saved the effort of unit testing and lowered the bug rate with self-build metrics",
+                    "d4": "▪ Visualized essentials metrics for a government bureau to reduce the report process time from a month to a few seconds, facilitating operational activities, leadership update, and informational presentation",
+                    "d5": "▪ 2020 Going the Extra Mile (GEM) Award Winner"
+                },
+                "logo": "./images/capital_one_logo.jpeg"
+            }
+        },
+        {
+            "exp": {
+                "Company": "REI Systems",
+                "Title": "Data Analyst",
+                "Year": "2019 - 2021",
+                "Details": {
+                    "d1": "▪ Accelerated development and achieved an early release for a 5-month Tableau dashboards project by 45 days with high quality, reducing the rework time from 20% to 10%",
+                    "d2": "▪ Managed stakeholder’s relationship and fostered open conversation by hosting requirements sessions and demo sessions to interview stakeholders, reveal potential problems, and provide multiple alternative solutions",
+                    "d3": "▪ Reduced the time of populating data from 25 different excels into data mart by 80% via building an ETL pipeline in Python. Dramatically saved the effort of unit testing and lowered the bug rate with self-build metrics",
+                    "d4": "▪ Visualized essentials metrics for a government bureau to reduce the report process time from a month to a few seconds, facilitating operational activities, leadership update, and informational presentation",
+                    "d5": "▪ 2020 Going the Extra Mile (GEM) Award Winner"
+                },
+                "logo": "./images/rei_systems_logo.jpeg"
+            }
+        },
+        {
+            "exp": {
+                "Company": "Ferguson Enterprises",
+                "Title": "Capstone Team Lead",
+                "Year": "2019",
+                "Details": {
+                    "d1": "▪ Developed multi-touch attribution model through Markov Chain using Python and Alteryx to understand media mix efficiency, helping clients to improve their return on investment by an estimation of 10%",
+                    "d2": "▪ Utilized cohort analysis to understand customer journey of different segments, providing targeted marketing strategies (e.g., improve the conversion rate of new customers and customer retention rate)",
+                    "d3": "Collected client’s requirements, led a team of six to search 20+ papers, drafted project roadmap and reprioritized it based on client’s needs, delivering solutions to measure media effectiveness with interactive visualizations"
+                },
+                "logo": "./images/ferguson_enterprises_logo.jpeg"
+            }
+        },
+        {
+            "exp": {
+                "Company": "Yitiao",
+                "Title": "Data Analytics Intern",
+                "Year": "2017 - 2018",
+                "Details": {
+                    "d1": "▪ Led quarterly and annual reports and implemented internal documentation, increasing informed decision-making",
+                    "d2": "▪ Built and maintained Tableau dashboard of data collected from 20+ social media platforms, improving audience-targeting for proposals of marketing resource allocation"
+                },
+                "logo": "./images/yitiao_logo.jpeg"
+            }
+        },
+        {
+            "exp": {
+                "Company": "Udacity",
+                "Title": "Teaching Assistant",
+                "Year": "2017 - 2018",
+                "Details": {
+                    "d1": "▪ Interviewed with trainees and made study plans; regular one-on-one interaction to enable every trainee to complete their learning progress and achieve study goal",
+                    "d2": "▪ Held weekly tutoring sessions; answered trainees’ questions and provided suggestions"
+                },
+                "logo": "./images/udacity_logo.jpeg"
+            }
+        },
+        {
+            "exp": {
+                "Company": "Hang Seng Bank",
+                "Title": "Global Markets Intern",
+                "Year": "2017",
+                "Details": {
+                    "d1": "▪ Collected data through Thomson Reuters and checked the in-house values and bid rate",
+                    "d2": "▪ Monitored permitted instruments and assisted team in risk control of credit spread"
+                },
+                "logo": "./images/hang_seng_bank_logo.jpeg"
+            }
+        },
+        {
+            "exp": {
+                "Company": "Venture Avenue",
+                "Title": "Intern",
+                "Year": "2016",
+                "Details": {
+                    "d1": "▪ Co-launched a philanthropic project for poverty-stricken hearing loss children",
+                    "d2": "▪ Investigated on 534 potential cooperative enterprises resulting in contact information of 144 enterprises for donor possibilities"
+                },
+                "logo": "./images/shende_logo.jpeg"
+            }
+        }
+    ]
+}

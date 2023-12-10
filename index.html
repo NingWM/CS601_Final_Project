@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yuening's Site</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="icon" href="./images/favicon.png">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/3.3.10/vue.global.min.js"
+        integrity="sha512-es4vSPtFlEKtmABZjNbGIagxq+4vAymgRWKhEt4C7Z+R8nHasGt/1H5JCBnUILChOXg1i1bImtqHul/LM7UxlQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="app.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <ul id="app">
+            <li v-for="nav in header">
+                <a :href="nav[1]">{{nav[0]}}</a>
+            </li>
+        </ul>
+        <h1>Welcome!</h1>
+    </header>
+
+    <main>
+        <div id="index-wrapper">
+            <div class="me-thumbnail">
+                <img id="me-pic" alt="photo of me" src="./images/me.jpg">
+                <div class="me-text">
+                    <h4>Yuening He</h4>
+                    <p>Lifetime Learner</p>
+                </div>
+            </div>
+            <img id="map-logo" src="./images/trilingual.gif" alt="Global Map">
+        </div>
+        <p id="index-text"> A trilingual speaker who grew up in China, majored in Japanese at undergrad school,
+            then came to the U.S. for graduate school and started working as a Data Analyst after
+            graduation. I gradually realized my passion for coding and development at work, so I decided to
+            enroll in MS in Software Development program at Boston University.
+        </p>
+    </main>
+    <footer>&copy; 2023. Yuening He. Open Source. MIT License.</footer>
+</body>
+
+</html>

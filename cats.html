@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Cats</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="icon" href="./images/favicon.png">
+    <script src="cats.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/3.3.10/vue.global.min.js"
+        integrity="sha512-es4vSPtFlEKtmABZjNbGIagxq+4vAymgRWKhEt4C7Z+R8nHasGt/1H5JCBnUILChOXg1i1bImtqHul/LM7UxlQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="app.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <ul id="app">
+            <li v-for="nav in header">
+                <a :href="nav[1]">{{nav[0]}}</a>
+            </li>
+        </ul>
+        <h1>Cats</h1>
+
+    </header>
+    <main>
+        <div class="cat-div">
+            <img id="cat-img" src="placeholder" alt="Cat saying hello">
+            <h2 id="car-header">Let's learn some cat fun facts!</h2>
+            <p id="cat-note">*Please enter a number from 1 - 10</p>
+            <input id="fact-input" type="number" min="1" max="10" value="1">
+            <button id="cat-button" onclick="catfact_func()">Let's generate!</button>
+            <hr>
+            <div id="cat-fact"></div>
+        </div>
+    </main>
+    <footer>&copy; 2023. Yuening He. Open Source. MIT License.</footer>
+</body>
+
+</html>
