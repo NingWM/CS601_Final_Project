@@ -55,6 +55,9 @@ async function fetch_func(url) {
 //run fetch functionto load DOM content
 document.addEventListener("DOMContentLoaded", (event) => {
     fetch_func("education.json");
+    //remove alt if there is no error img
+    const errImg = document.getElementById('img-ft');
+    errImg.alt = '';
 });
 
 // Function to toggle photos in grid
@@ -67,8 +70,12 @@ function photoGallery(imgs) {
 }
 
 // Load Tongji photo as default
-const defaultimg = document.getElementById("tj")
+const defaultimg = document.getElementById("tj");
 photoGallery(defaultimg);
+
+
+const errImg = document.getElementById('img-ft');
+
 
 // Func to toggle humbegar
 // function menuToggle() {

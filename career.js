@@ -72,4 +72,7 @@ async function fetch_work(url) {
 //run fetch functionto load DOM content
 document.addEventListener("DOMContentLoaded", (event) => {
     fetch_work("career.json");
+    //remove alt if there is no error img
+    const errImg = document.getElementById('img-ft2');
+    errImg.alt = '';
 });
