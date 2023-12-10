@@ -569,7 +569,7 @@ fieldset {
     margin: 0 auto;
 }
 
-video {
+video, iframe {
     width: 40%;
     min-width: 300px;
     max-width: 600px;
