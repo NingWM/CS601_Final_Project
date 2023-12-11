@@ -89,7 +89,7 @@ th {
 }
 
 .http-cat {
-    width: 50%;
+    max-width: 400px;
     margin: 20px auto;
 }
 
